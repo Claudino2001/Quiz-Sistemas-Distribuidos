@@ -2,9 +2,9 @@
 Este é um aplicativo Java simples que implementa um Servidor de Jogo de Quiz utilizando programação de Socket. Jogadores podem se conectar a este servidor usando um aplicativo cliente para participar de um jogo de quiz.
 
 **Grupo:**
-Gabriel Claudino
-Gabriel Dunkel
-Giulia Franca
+- Gabriel Claudino
+- Gabriel Dunkel
+- Giulia Franca
 
 ## Como Funciona
 O servidor cria uma nova thread para cada conexão de cliente. Cada thread lida com a comunicação entre o servidor e um cliente específico. O servidor envia perguntas do quiz para o cliente, recebe suas respostas e calcula a pontuação. Após o término do quiz, o servidor envia a pontuação final para o cliente e fecha a conexão.
