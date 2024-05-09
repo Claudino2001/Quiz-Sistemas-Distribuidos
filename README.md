@@ -14,3 +14,7 @@ A programação de Socket é uma forma de conectar dois nós em uma rede para se
 
 ## Visão Geral do Código
 A classe ServidorThread implementa a interface Runnable, permitindo que ela seja executada por uma thread separada. O método run contém a lógica para se comunicar com o cliente. Ele envia perguntas do quiz para o cliente, recebe suas respostas e calcula a pontuação. Enquanto a classe Servidor implementa e cria o servidor, funcionando como Main. A classe cliente simplesmente se conecta ao servidor após ele ser criado.
+
+## Vídeo
+
+[![Assista ao vídeo](https://img.youtube.com/vi/BrphMJrhpJ8/0.jpg)](https://youtu.be/BrphMJrhpJ8)
